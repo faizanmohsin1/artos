@@ -1,0 +1,362 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(./img/OpenSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Open Sans;
+
+}
+
+p {
+    font-family: 'Open Sans';
+    line-height: 28px;
+    word-spacing: 4px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Open Sans';
+}
+
+body {
+    background-color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+body a {
+    color: #0085ad;
+    text-decoration: none;
+}
+
+
+.headerups {
+    width: 100%;
+
+}
+
+
+.headerups p {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 2vw;
+}
+
+.nav-imgs {
+    width: 100%;
+    background-color: blue;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(0, 71, 224), rgb(123, 165, 255));
+ 
+}
+
+.nav-imgs img {
+    width: 220px;
+    height: 45px;
+    margin: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    margin-top: 5px;
+    padding: 20px;
+
+    width: 900px;
+
+}
+
+.content p {
+
+ 
+}
+
+.content span {
+    margin-bottom: 20px;
+}
+
+.content img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+.content h1 {
+    font-weight: 600;
+    font-size: 28px;
+
+
+}
+
+.cntr {
+    margin-top: 20px
+}
+
+
+.cntr p,
+li {
+    text-align: left;
+
+}
+
+.cntr h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.cntr h4 {
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.cntr img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+.box h2 {
+    background-color: #0091cd;
+    text-align: left;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.box ul {
+    background-color: #f0f0f0;
+    padding: 45px;
+
+}
+
+.specialsaving {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.486), 0 6px 20px 0 rgba(0, 0, 0, 0.479);
+    margin-bottom: 20px;
+}
+
+.specialsaving h2 {
+    background-color: #30a2d7;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.specialsaving p {
+    padding: 20px;
+    color: #000000;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.specialsaving button {
+    width: 100%;
+    height: 90px;
+    border-radius: 5px;
+    background-color: #00db42;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+.review {
+    text-align: left;
+
+}
+
+.review p {
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    padding: 10px;
+}
+
+.divs {
+    border: 1px solid rgba(128, 128, 128, 0.226);
+    padding: 5px;
+}
+
+.div-img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+
+}
+
+.div-img img {
+    border-radius: 100%;
+}
+
+.div-img span {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 60px 0;
+    /* min-height: 100vh;*/
+}
+
+ul {
+    margin-left: 40px;
+
+}
+
+ul li {
+    margin-top: 10px;
+}
+
+.contact-social {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.contact-social>ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.contact-social ul li a {
+
+    color: #8b9199;
+    display: inline-flex;
+    margin-right: 20px;
+
+}
+
+
+
+.contact-content img {
+    max-width: 210px;
+}
+
+section,
+footer {
+    background: #1A1E25;
+    color: #868c96;
+}
+
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 44px;
+}
+
+.flx {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.flx img {
+    flex: 0.3;
+}
+
+.flx p {
+    flex: 0.7;
+}
+
+
+.btn {
+    width: 100%;
+    display: flex;
+
+}
+
+ .btn button {
+    width: 50%;
+    height: 40px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.flex {
+    background-color: #e9faff;
+    max-width: 100%;
+}
+
+
+.flex1 {
+    display: flex;
+    padding: 20px;
+}
+.sub1{
+width: 30%;
+}
+.sub2{
+    width: 50%;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    
+
+    .flex1 {
+        display: block;
+       
+    }
+    .sub1{
+        width: 100%;
+      text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .sub2{
+        width: 100%;
+      
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+.footer{
+    padding: 120px 120px 120px 120px; 
+    color: rgb(153, 153, 153);
+    background-color:#1A1E25;
+}
